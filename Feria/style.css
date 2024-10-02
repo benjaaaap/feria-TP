@@ -1,0 +1,391 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.carrusel{
+    height: 500px;
+}
+
+.navbar {
+    background-color: rgb(180, 74, 74);
+}
+
+.logo {
+    width: 120px;
+    height: 60px;
+}
+
+.cantantes a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.cantantes ol {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid;
+    margin-top: 15px;
+    font-weight: bold;
+    padding: 7px;
+    margin: 0;
+}
+
+.colaborados h1 {
+    font-size: 20px;
+}
+
+.colaborados {
+    border: 1px solid;
+    width: 300px;
+    height: 450px;
+}
+
+.colaborados ul {
+    list-style: none;
+    font-weight: bold;
+}
+
+.pailita {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.polima {
+    width: 100px;
+    margin-bottom: 10px;
+    margin-left: 71px;
+}
+
+.easykid {
+    width: 100px;
+}
+
+.inicio {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding: 3px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 40px;
+}
+
+.paloma {
+    width: 90px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+.ak {
+    width: 90px;
+    margin-bottom: 10px;
+}
+
+.marcianeke {
+    width: 90px;
+    margin-bottom: 10px;
+    margin-left: 45px;
+}
+
+.biza {
+    width: 90px;
+    margin-bottom: 10px;
+}
+
+.cister {
+    width: 90px;
+    margin-bottom: 10px;
+    margin-left: 45px;
+}
+
+.beny {
+    width: 90px;
+    margin-bottom: 10px;
+    margin-left: 85px;
+}
+
+.pablo {
+    width: 95px;
+    margin-bottom: 10px;
+    margin-left: 45px;
+}
+
+.harry {
+    width: 95px;
+    margin-bottom: 10px;
+    margin-left: 52px;
+}
+
+.nicky {
+    width: 95px;
+    margin-bottom: 10px;
+    margin-left: 65px;
+}
+
+.gustos {
+    margin-top: 20px;
+    margin-left: 320px;
+    position: absolute;
+    font-size: 20px;
+    border: 1px solid;
+    padding: 2px;
+    margin-right: 300px;
+    border-radius: 50px;
+}
+
+.titulos {
+    font-size: 20px;
+}
+
+.trayectoria {
+    margin-top: 470px;
+    margin-left: 10px;
+    border: 1px solid black;
+    position: absolute;
+    padding: 10px;
+}
+
+.como {
+    border: 1px solid black;
+    margin: 25px;
+    padding: 10px;
+}
+
+.gusta {
+    border: 1px solid black;
+    margin: 25px;
+    padding: 6px;
+}
+
+.nosotros {
+    font-size: 30px;
+}
+
+.carousel {
+    background-color: black;
+    position: absolute;
+    width: 900px;
+}
+
+.carousel-item {
+    background-color: black;
+    position: absolute;
+    opacity: 0.4;
+}
+
+.carousel-inner {
+    position: absolute;
+}
+
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.texto {
+    color: white;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 200px;
+}
+
+.texto2 {
+    color: rgba(255, 255, 255, 0.593);
+    position: absolute;
+    margin-top: 335px;
+    margin-left: 300px;
+}
+
+.enlaces {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+
+.audio{
+    position: absolute;
+    margin-top: 380px;
+    margin-left: 310px;
+    width: 900px;
+}
+
+.te-quiero-ver{
+    position: absolute;
+    height: 30px;
+    width: 150px;
+    margin-top: 230px;
+}
+.caminemos{
+    position: absolute;
+    height: 30px;
+    width: 150px;
+    margin-top: 105px;
+}
+.puerto{
+    position: absolute;
+    height: 30px;
+    width: 150px;
+    margin-top: 370px;
+}
+
+.miau{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 310px;
+    width: 600px;
+}
+.venga{
+    position: absolute;
+    margin-top: 380px;
+    margin-left: 310px;
+    width: 600px;
+}
+
+.mearrepenti{
+    position: absolute;
+    height: 30px;
+    width: 150px;
+    margin-top: 105px;
+}
+.ultrasola{
+    position: absolute;
+    height: 30px;
+    width: 150px;
+    margin-top: 240px;
+}
+.dimelo{
+    position: absolute;
+    height: 30px;
+    width: 150px;
+    margin-top: 390px;
+}
+
+
+.otaku{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 310px;
+    width: 600px;
+}
+
+.blood{
+    position: absolute;
+    height: 30px;
+    width: 150px;
+    margin-top: 105px;
+}
+
+
+.fotos{
+    width: 290px;
+    position: absolute;
+    margin-left: 1625px;
+    margin-top: 40px;
+}
+
+.chile{
+    width: 130px;
+    height: 70px;
+    margin-top: 20px;
+}
+.dennsy{
+    position: absolute;
+    height: 30px;
+    width: 150px;
+    margin-top: 240px;
+}
+
+.ganas{
+    position: absolute;
+    height: 30px;
+    width: 150px;
+    margin-top: 390px; 
+}
+
+.desespero{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 310px;
+    width: 600px;   
+}
+.bzrp{
+    position: absolute;
+    height: 30px;
+    width: 150px;
+    margin-top: 105px;
+}
+
+.casiamor{
+    position: absolute;
+    height: 30px;
+    width: 150px;
+    margin-top: 240px; 
+}
+
+.loquetiene{
+    position: absolute;
+    height: 30px;
+    width: 150px;
+    margin-top: 390px; 
+}
+
+
+.info-grupo{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 800px;
+}
+
+.container{
+    
+    background-color: silver;
+}
+
+.playlist{
+    display: none;
+    background-color: silver;
+    position: absolute;
+    width: 600px;
+    height: 700px;
+    margin-left: 650px;
+    margin-top: 30px;
+}
+.gg{
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gg a{
+    color: black;
+    font-size: 45px;
+    font-family: monospace;
+    text-decoration: none;
+    position: absolute;
+    margin-left: 500px;
+}
+.x1{
+    margin-left: 40px;
+}
